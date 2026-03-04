@@ -214,7 +214,7 @@ class Import2Firefly:
                             ),
                             "source_id": (
                                 (
-                                    None
+                                    "(unknown expense account)"
                                     if linked_account is None
                                     else linked_account["id"]
                                 )
